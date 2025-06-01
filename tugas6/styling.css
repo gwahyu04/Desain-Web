@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    margin: 400px;
+    padding: 50px;
+    background-color:darkgray ;
+}
+h2{
+    text-align: center;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+
+}
+
