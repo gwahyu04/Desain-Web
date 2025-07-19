@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WisataKu - Layouting with HTML & CSS</title>
+    <link rel="stylesheet" href="pertemuan12.css" />
+   
+</head>
+<body>
+    <nav>
+        <div class="container navbar-container">
+            <a href="#" class="logo">WisataKu</a>
+            <button class="mobile-menu-btn">☰</button>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#destinations">Destinasi</a></li>
+                <li><a href="#testimonials">Testimoni</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="container">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a42ab10d-c632-44c8-9b37-df7a0fd6b659.png" alt="Logo WisataKu - daun hijau dengan bentuk pulau di tengahnya" />
+            <h1>Jelajahi Keindahan Alam Indonesia</h1>
+            <p>Temukan pengalaman wisata tak terlupakan dengan pemandangan indah, budaya kaya, dan keramahan masyarakat lokal yang hangat.</p>
+            <a href="#destinations" class="btn">Lihat Destinasi</a>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Tentang Kami</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>WisataKu adalah platform yang didedikasikan untuk memperkenalkan keindahan wisata alam Indonesia kepada dunia. Kami percaya bahwa setiap tempat wisata memiliki cerita dan keunikan tersendiri yang layak untuk dikenang.</p>
+                    <p>Dengan tim guide profesional dan fasilitas terbaik, kami berkomitmen untuk memberikan pengalaman wisata yang aman, nyaman, dan tak terlupakan untuk setiap pelanggan kami.</p>
+                    <a href="#contact" class="btn">Hubungi Kami</a>
+                </div>
+                <div class="about-image">
+                    <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a9f54e8c-64b8-434f-8bb6-bc5d595ea6ae.png" alt="Tim WisataKu sedang memandu sekelompok wisatawan di sawah terasering yang indah di Bali" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="section">
+        <div class="container">
+            <h2 class="section-title">Destinasi Populer</h2>
+            <div class="destinations-grid">
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/e63ea42f-26f2-4322-ac31-cd6298acaccf.png" alt="Pulau Komodo dengan pantai berpasir merah muda dan naga komodo di latar belakang" />
+                    </div>
+                    <div class="card-content">
+                        <h3>Pulau Komodo, NTT</h3>
+                        <p>Temukan keajaiban alam pulau Komodo dengan satwa purba yang masih hidup dan pemandangan bawah laut yang menakjubkan.</p>
+                        <span class="price">Mulai dari Rp 1.500.000</span>
+                        <a href="#" class="btn">Detail</a>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/83e2871c-6551-4b10-b95d-116b61738320.png" alt="Gunung Bromo di pagi hari dengan kabut dan sinar matahari keemasan" />
+                    </div>
+                    <div class="card-content">
+                        <h3>Gunung Bromo, Jawa Timur</h3>
+                        <p>Nikmati sunrise yang spektakuler di salah satu gunung berapi paling ikonik di Indonesia dengan pemandangan yang tak tertandingi.</p>
+                        <span class="price">Mulai dari Rp 800.000</span>
+                        <a href="#" class="btn">Detail</a>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <div class="card-image">
+                        <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/58bbed25-98eb-42d8-a9d9-527f1b3cb3a9.png" alt="Raja Ampat dengan perairan biru jernih dan pulau-pulau karang kecil" />
+                    </div>
+                    <div class="card-content">
+                        <h3>Raja Ampat, Papua Barat</h3>
+                        <p>Surga bagi penyelam dengan keanekaragaman biota laut terbesar di dunia dan pemandangan pulau yang memesona.</p>
+                        <span class="price">Mulai dari Rp 2.500.000</span>
+                        <a href="#" class="btn">Detail</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Testimoni Pelanggan</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>Pengalaman wisata yang luar biasa! Guide kami sangat berpengetahuan dan membantu. Pemandangan di Bromo benar-benar spektakuler, terutama saat sunrise.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/65781566-bdef-4539-a0b3-530309487e93.png" alt="Foto profil David Setiawan - pria dewasa tersenyum mengenakan topi safari" />
+                        </div>
+                        <div class="author-info">
+                            <h4>David Setiawan</h4>
+                            <p>Wisata Gunung Bromo, 2024</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>Snorkeling di Raja Ampat adalah pengalaman terbaik dalam hidup saya. Airnya sangat jernih dan ikan-ikan berwarna-warni. Tim dari WisataKu membuat perjalanan kami sangat menyenangkan dan aman.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f8e0859c-3ec0-4668-aa3a-acd0832ce01d.png" alt="Foto profil Sarah Wijaya - wanita dewasa mengenakan kacamata hitam di pantai" />
+                        </div>
+                        <div class="author-info">
+                            <h4>Sarah Wijaya</h4>
+                            <p>Wisata Raja Ampat, 2025</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>Saya tidak menyangka bisa melihat komodo dari dekat! Tour organizer sangat profesional dan kamar hotel yang disediakan sangat nyaman. Akan merekomendasikan WisataKu ke teman-teman.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/6c3527c9-3d43-4424-a185-3dd7472ba0d8.png" alt="Foto profil Rudi Darmawan - pria dewasa memegang sertifikat menyelam dengan latar pulau" />
+                        </div>
+                        <div class="author-info">
+                            <h4>Rudi Darmawan</h4>
+                            <p>Wisata Pulau Komodo, 2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <p>Punya pertanyaan atau ingin memesan paket wisata? Tim kami siap membantu Anda merencanakan perjalanan impian Anda.</p>
+                <a href="mailto:info@wisataku.com" class="btn" style="margin-top: 30px;">Kirim Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>WisataKu</h3>
+                    <p>Menghubungkan Anda dengan keindahan alam Indonesia melalui pengalaman wisata yang tak terlupakan.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#destinations">Destinasi</a></li>
+                        <li><a href="#testimonials">Testimoni</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Kontak</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Jl.MH.Thamrin No. 123, Banyuwangi</li>
+                        <li><i class="fas fa-phone"></i> +62 123 4567 890</li>
+                        <li><i class="fas fa-envelope"></i> info@wisataku.com</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>© 2024 WisataKu. Seluruh hak cipta dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+        
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('nav');
+            navbar.classList.toggle('scrolled', window.scrollY > 50);
+        });
+        
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                if (navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                }
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Lazy Loading Images
+        document.addEventListener('DOMContentLoaded', function() {
+            const lazyImages = [].slice.call(document.querySelectorAll('img.lazy'));
+            
+            if ('IntersectionObserver' in window) {
+                let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            let lazyImage = entry.target;
+                            lazyImage.src = lazyImage.dataset.src;
+                            lazyImage.classList.remove('lazy');
+                            lazyImageObserver.unobserve(lazyImage);
+                        }
+                    });
+                });
+                
+                lazyImages.forEach(function(lazyImage) {
+                    lazyImageObserver.observe(lazyImage);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
+
